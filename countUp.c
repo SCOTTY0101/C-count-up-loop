@@ -10,5 +10,5 @@ void setup() {
 void loop() {
     countUp++; //adds 1 to the countUp int on every loop
     Serial.print(countUp); //prints out the current state of countUp
-    delay(1000);
+    delay(1000); // 1 second delay on each loop.
 }
